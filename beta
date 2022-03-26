@@ -1,7 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -29,6 +25,8 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(85, 145, 255)
 Frame.Position = UDim2.new(0.0980876088, 0, 0.266257674, 0)
 Frame.Size = UDim2.new(0, 757, 0, 430)
+Frame.Active = true
+Frame.Draggable = true
 
 label.Name = "label"
 label.Parent = Frame

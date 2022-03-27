@@ -397,11 +397,11 @@ credits.MouseButton1Down:connect(function()
 		game.StarterGui:SetCore("SendNotification", {
 			Title = 'script';
 			Text = 'this script is in beta, expect bugs.';
-			Duration = 15;
+			Duration = 5;
 		})
-		if not game.Players.LocalPlayer:IsInGroup(12052955) then
+		if not game.Players.LocalPlayer:IsInGroup(57252) then
 			coroutine.resume(coroutine.create(function()
-				wait(10)
+				wait(5)
 				game.StarterGui:SetCore("SendNotification", {
 					Title = 'My User';
 					Text = 'my user was copied to ur clipboard thx';
